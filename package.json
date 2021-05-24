@@ -1,0 +1,37 @@
+{
+  "name": "StockDatasetAPI",
+  "version": "0.0.0",
+  "private": true,
+  "scripts": {
+    "dev": "nodemon app.js",
+    "prestart": "npm install",
+    "start": "node ./bin/www",
+    "pretest": "npm install",
+    "test": "./node_modules/.bin/mocha test"
+  },
+  "dependencies": {
+    "bcryptjs": "^2.4.3",
+    "bluebird": "^3.5.0",
+    "body-parser": "^1.19.0",
+    "chai": "^4.1.1",
+    "chai-as-promised": "^7.1.1",
+    "chai-http": "^3.0.0",
+    "cookie-parser": "~1.4.3",
+    "debug": "~2.6.3",
+    "dotenv": "^8.0.0",
+    "express": "^4.17.1",
+    "jade": "~1.11.0",
+    "jsonfile": "^3.0.1",
+    "lodash": "^4.17.4",
+    "mocha": "^3.5.0",
+    "mocha-junit-reporter": "^1.13.0",
+    "mocha-multi-reporters": "^1.1.4",
+    "moment": "^2.18.1",
+    "mongoose": "^5.12.11",
+    "morgan": "^1.10.0",
+    "serve-favicon": "~2.4.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.7"
+  }
+}
